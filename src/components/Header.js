@@ -5,10 +5,11 @@ function Header({ isDarkMode, onDarkModeClick }) {
     <header>
       <h2>Shopster</h2>
       <button onClick={onDarkModeClick}>
-        {isDarkMode ? "Dark" : "Light"} Mode
+        {isDarkMode ? "Light" : "Dark"} Mode
       </button>
     </header>
   );
 }
 
 export default Header;
+
